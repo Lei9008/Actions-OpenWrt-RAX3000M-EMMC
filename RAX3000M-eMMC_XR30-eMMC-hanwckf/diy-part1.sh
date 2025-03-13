@@ -18,8 +18,8 @@
 
 # Add a feed source(添加源)
 #添加插件源
-echo -e "\nsrc-git Lei9008_package https://github.com/Lei9008/openwrt_package_Lite" >> feeds.conf.default
-sed -i '$a src-git Lei9008_package https://github.com/mzwrt/mzwrt_package_Lite' feeds.conf.default
+#echo -e "\nsrc-git Lei9008_package https://github.com/Lei9008/openwrt_package_Lite" >> feeds.conf.default
+#sed -i '$a src-git Lei9008_package https://github.com/mzwrt/mzwrt_package_Lite' feeds.conf.default
 ##添加自己的插件库
 #echo -e "\nsrc-git extraipk https://github.com/liker5092/extra_ipk" >> feeds.conf.default
 #echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> ./feeds.conf.default
