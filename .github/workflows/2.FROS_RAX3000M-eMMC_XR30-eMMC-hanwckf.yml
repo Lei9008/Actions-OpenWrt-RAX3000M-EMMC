@@ -46,7 +46,7 @@ on:
       APP_MTK:
         description: 'Use luci-app-mtk wifi config'
         required: true
-        default: false
+        default: true
         type: boolean
   ####
       USE_52MHZ:
