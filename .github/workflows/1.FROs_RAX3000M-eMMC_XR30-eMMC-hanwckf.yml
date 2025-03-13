@@ -74,18 +74,19 @@ env:
   REPO_URL:  https://github.com/Lei9008/immortalwrt-mt798x-fros
   #REPO_BRANCH: openwrt-21.02
   #####
-  FREE_DISK_SH: FROS/scripts/free_disk_space.sh
+  FREE_DISK_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/scripts/free_disk_space.sh
   #FEEDS_CONF: FROS/scripts/feeds.conf.default
-  #RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
-  ENV_SH: FROS/scripts/environment.sh
-  DIY_SH: FROS/scripts/FROS_diy.sh
-  #DIY_P1_SH: FROS/scripts/diy1.sh
-  #DIY_P2_SH: FROS/scripts/diy2.sh
-  CLASH_CORE: FROS/scripts/preset-clash-core.sh
-  ######
-  
   FEEDS_CONF: RAX3000M-eMMC_XR30-eMMC-hanwckf/feeds.conf.default
   RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
+  ENV_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/scripts/environment.sh
+  DIY_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/scripts/FROS_diy.sh
+  #DIY_P1_SH: FROS/scripts/diy1.sh
+  #DIY_P2_SH: FROS/scripts/diy2.sh
+  CLASH_CORE: RAX3000M-eMMC_XR30-eMMC-hanwckf/scripts/preset-clash-core.sh
+  ######
+  
+  #FEEDS_CONF: RAX3000M-eMMC_XR30-eMMC-hanwckf/feeds.conf.default
+  #RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
   CONFIG_FILE: RAX3000M-eMMC_XR30-eMMC-hanwckf/.mtwifi-cfg.config
   DIY_P1_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/diy-part1.sh
   DIY_P2_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/diy-part2.sh
