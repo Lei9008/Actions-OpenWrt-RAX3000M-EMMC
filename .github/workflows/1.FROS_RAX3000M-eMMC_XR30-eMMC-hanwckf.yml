@@ -69,7 +69,7 @@ env:
   ###############手动修改##############
   ##因为是两个设备，所以手动设置上传时候的打包名称和tag名称UPLOAD_TAG_NAME
   OPENWRT_NAME: FROS
-  UPLOAD_TAG_NAME: rax3000m-emmc_xr30-emmc
+  UPLOAD_TAG_NAME: RAX3000m-emmc_XR30-emmc
   # REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
   REPO_URL: https://github.com/Lei9008/immortalwrt-mt798x-fros
   REPO_BRANCH: openwrt-21.02-fros
@@ -79,7 +79,7 @@ env:
   FEEDS_CONF: RAX3000M-eMMC_XR30-eMMC-hanwckf/feeds.conf.default
   RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
   ENV_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/scripts/environment.sh
-  CONFIG_FILE: RAX3000M-eMMC_XR30-eMMC-hanwckf/.mtwifi-cfg.config
+  CONFIG_FILE: RAX3000M-eMMC_XR30-eMMC-hanwckf/XR30-emmc_FROS.config
   DIY_P1_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/diy-part1.sh
   DIY_P2_SH: RAX3000M-eMMC_XR30-eMMC-hanwckf/diy-part2.sh
   CLASH_CORE: RAX3000M-eMMC_XR30-eMMC-hanwckf/scripts/preset-clash-core.sh
