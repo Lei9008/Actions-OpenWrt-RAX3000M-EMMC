@@ -24,19 +24,19 @@
 #echo -e "\nsrc-git extraipk https://github.com/liker5092/extra_ipk" >> feeds.conf.default
 #echo "src-git kenzo https://github.com/kenzok8/openwrt-packages" >> ./feeds.conf.default
 ##添加自己的插件库
-src-git-full Lei9008_package https://github.com/Lei9008/openwrt_package_Lite.git;Lei9008_package
+#src-git-full Lei9008_package https://github.com/Lei9008/openwrt_package_Lite.git;Lei9008_package
 
 ## clone kiddin9/openwrt-packages仓库
-src-git-full kiddin9 https://github.com/kiddin9/kwrt-packages.git;openwrt-packages
-src-git-full kenzo https://github.com/kenzok8/openwrt-packages.git;openwrt-packages
-src-git-full extraipk https://github.com/liker5092/extra_ipk;openwrt-packages
+#src-git-full kiddin9 https://github.com/kiddin9/kwrt-packages.git;openwrt-packages
+#src-git-full kenzo https://github.com/kenzok8/openwrt-packages.git;openwrt-packages
+#src-git-full extraipk https://github.com/liker5092/extra_ipk;openwrt-packages
 
 
 
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
 # passwall
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+git passwall https://github.com/xiaorouji/openwrt-passwall
 
 # 阿里云服务
 git clone https://github.com/messense/aliyundrive-webdav package/messense
