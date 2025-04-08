@@ -52,7 +52,7 @@ on:
       USE_52MHZ:
         description: 'Use 52MHz max-frequency'
         required: true
-        default: true
+        default: false
         type: boolean
    ####     
       NO_DOCKERMAN:
@@ -70,7 +70,7 @@ on:
 env:
   ###############手动修改##############
   ##因为是两个设备，所以手动设置上传时候的打包名称和tag名称UPLOAD_TAG_NAME
-  OPENWRT_NAME: hanwckf
+  OPENWRT_NAME: FROS-h
   UPLOAD_TAG_NAME: RAX3000M-eMMC_XR30-eMMC
   REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
